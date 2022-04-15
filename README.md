@@ -1,1 +1,3 @@
 # vhdash
+
+JavaScript utility library.
