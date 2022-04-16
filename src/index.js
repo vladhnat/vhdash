@@ -16,6 +16,12 @@ import map from './map';
 import mapKey from './map-key';
 import mapObject from './map-object';
 import mapValue from './map-value';
+import compact from './compact';
+import isObject from './is-object';
+import create from './create';
+import eq from './eq';
+import every from './every'
+import filter from './filter';
 
 export default {
   add,
@@ -36,4 +42,10 @@ export default {
   mapKey,
   mapObject,
   mapValue,
+  compact,
+  isObject,
+  create,
+  eq,
+  every,
+  filter,
 };
