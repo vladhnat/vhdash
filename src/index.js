@@ -22,6 +22,11 @@ import create from './create';
 import eq from './eq';
 import every from './every'
 import filter from './filter';
+import defer from './defer';
+import gt from './gt';
+import gte from './gte';
+import head from './head';
+import hasIn from './has-in';
 
 export default {
   add,
@@ -48,4 +53,9 @@ export default {
   eq,
   every,
   filter,
+  defer,
+  gt,
+  gte,
+  head,
+  hasIn,
 };
