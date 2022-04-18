@@ -27,6 +27,11 @@ import gt from './gt';
 import gte from './gte';
 import head from './head';
 import hasIn from './has-in';
+import castArray from './cast-array';
+import clamp from './clamp';
+import defaultTo from './default-to';
+import endsWith from './ends-with';
+import escape from './escape';
 
 export default {
   add,
@@ -58,4 +63,9 @@ export default {
   gte,
   head,
   hasIn,
+  castArray,
+  clamp,
+  defaultTo,
+  endsWith,
+  escape,
 };
