@@ -32,6 +32,11 @@ import clamp from './clamp';
 import defaultTo from './default-to';
 import endsWith from './ends-with';
 import escape from './escape';
+import uniqueId from './unique-id';
+import unescape from './unescape';
+import toPlainObject from './to-plain-object';
+import times from './times';
+import startsWith from './starts-with';
 
 export default {
   add,
@@ -68,4 +73,9 @@ export default {
   defaultTo,
   endsWith,
   escape,
+  uniqueId,
+  unescape,
+  toPlainObject,
+  times,
+  startsWith,
 };
