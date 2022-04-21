@@ -1,4 +1,8 @@
-const htmlEscapes: { [key: string]: string } = {
+interface Object {
+  [key: string]: string
+}
+
+const htmlEscapes: Object = {
   '&': '&amp;',
   '<': '&lt;',
   '>': '&gt;',

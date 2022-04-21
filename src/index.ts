@@ -5,8 +5,11 @@ import after from './after';
 import before from './before';
 import tail from './tail';
 import isFunction from './is-function';
+import isNumber from './is-number';
 import isNull from './is-null';
+import isNil from './is-nil';
 import isUndefined from './is-undefined';
+import isLength from './is-length';
 import keysIn from './keys-in';
 import last from './last';
 import isString from './is-string';
@@ -37,6 +40,8 @@ import unescape from './unescape';
 import toPlainObject from './to-plain-object';
 import times from './times';
 import startsWith from './starts-with';
+import memoize from './memoize';
+import over from './over';
 
 export default {
   add,
@@ -46,8 +51,11 @@ export default {
   before,
   tail,
   isFunction,
+  isNumber,
   isNull,
+  isNil,
   isUndefined,
+  isLength,
   keysIn,
   last,
   isString,
@@ -78,4 +86,6 @@ export default {
   toPlainObject,
   times,
   startsWith,
+  memoize,
+  over,
 };

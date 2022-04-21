@@ -1,10 +1,14 @@
+interface Object {
+  [key: string]: any
+}
+
 /**
  *
  * @param {*} value The value to convert
  * @returns {Object} Returns converted object
  */
-const toPlainObject = (value: any): { [key: string]: any } => {
-  const result: { [key: string]: any } = {};
+const toPlainObject = (value: any): Object => {
+  const result: Object = {};
   value = Object(value);
 
   for (const key in value) {

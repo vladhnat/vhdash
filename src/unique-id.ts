@@ -1,4 +1,8 @@
-const idCounter: { [key: string]: any } = {}
+interface Object {
+  [key: string]: any
+}
+
+const idCounter: Object = {}
 const lodashPrefix: string = '$lodash$';
 
 /**
