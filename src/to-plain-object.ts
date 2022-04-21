@@ -3,8 +3,8 @@
  * @param {*} value The value to convert
  * @returns {Object} Returns converted object
  */
-const toPlainObject = (value: any): Object => {
-  const result: Object = {};
+const toPlainObject = (value: any): { [key: string]: any } => {
+  const result: { [key: string]: any } = {};
   value = Object(value);
 
   for (const key in value) {

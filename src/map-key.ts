@@ -4,9 +4,9 @@
  * @param {Function} iteratee The function invoked per iteration
  * @returns {Object} Returns the new mapped object
  */
-const mapKey = (object: Object, iteratee: Function): Object => {
+const mapKey = (object: { [key: string]: any }, iteratee: Function): Object => {
   object = Object(object);
-  const result: Object = {};
+  const result: { [key: string]: any } = {};
 
   for (const key in object) {
     const value: any = object[key];

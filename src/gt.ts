@@ -1,4 +1,4 @@
-import isString from './is-string.js';
+import isString from './is-string';
 
 /**
  *

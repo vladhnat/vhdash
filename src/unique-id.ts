@@ -1,4 +1,4 @@
-const idCounter: Object = {}
+const idCounter: { [key: string]: any } = {}
 const lodashPrefix: string = '$lodash$';
 
 /**
@@ -6,10 +6,10 @@ const lodashPrefix: string = '$lodash$';
  * @param {string} prefix The value to prefix the ID with
  * @returns {string} Returns the unique ID
  */
-const uniqueId = (prefix: string = lodashPrefix): string => {
+const uniqueId = (prefix: string = lodashPrefix): any => {
   if (!idCounter[prefix]) idCounter[prefix] = 0;
 
-  const id: string = ++idCounter[prefix];
+  const id: number = ++idCounter[prefix];
 
   if (prefix === lodashPrefix) return id;
 

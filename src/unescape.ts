@@ -1,4 +1,4 @@
-const htmlUnescapes: Object = {
+const htmlUnescapes: { [key: string]: string } = {
   '&amp;': '&',
   '&lt;': '<',
   '&gt;': '>',

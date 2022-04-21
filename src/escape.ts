@@ -1,4 +1,4 @@
-const htmlEscapes: Object = {
+const htmlEscapes: { [key: string]: string } = {
   '&': '&amp;',
   '<': '&lt;',
   '>': '&gt;',
@@ -15,7 +15,7 @@ const reHasUnescapedHtml: RegExp = RegExp(reUnescapedHtml.source);
  * @returns {String} Returns escaped string
  */
 const escape = (string: string = ''): string => reHasUnescapedHtml.test(string)
-  ? string.replace(reUnescapedHtml, (chr: any) => htmlEscapes[chr]) :
+  ? string.replace(reUnescapedHtml, (chr: string): string => htmlEscapes[chr]) :
   string;
 
 export default escape;
