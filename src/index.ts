@@ -42,6 +42,7 @@ import times from './times';
 import startsWith from './starts-with';
 import memoize from './memoize';
 import over from './over';
+import defaults from './defaults';
 
 export default {
   add,
@@ -88,4 +89,5 @@ export default {
   startsWith,
   memoize,
   over,
+  defaults,
 };
