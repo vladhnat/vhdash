@@ -9,6 +9,11 @@ interface ObjectType {
 const objectProto: ObjectType = Object.prototype;
 const hasOwnProperty = objectProto.hasOwnProperty
 
+/**
+ * @param {Object} object The destination object
+ * @param {...Object} [sources] The source objects
+ * @returns {Object} Returns `object`
+ */
 const defaults = (object: ObjectType, ...sources: any[]): ObjectType => {
   object = Object(object);
 
