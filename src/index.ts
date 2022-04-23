@@ -43,6 +43,7 @@ import startsWith from './starts-with';
 import memoize from './memoize';
 import over from './over';
 import defaults from './defaults';
+import escapeRegExp from './escape-reg-exp';
 
 export default {
   add,
@@ -90,4 +91,5 @@ export default {
   memoize,
   over,
   defaults,
+  escapeRegExp,
 };
