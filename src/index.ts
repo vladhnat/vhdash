@@ -44,6 +44,7 @@ import memoize from './memoize';
 import over from './over';
 import defaults from './defaults';
 import escapeRegExp from './escape-reg-exp';
+import everyValue from './every-value';
 
 export default {
   add,
@@ -92,4 +93,5 @@ export default {
   over,
   defaults,
   escapeRegExp,
+  everyValue,
 };
