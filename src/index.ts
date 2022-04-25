@@ -45,6 +45,7 @@ import over from './over';
 import defaults from './defaults';
 import escapeRegExp from './escape-reg-exp';
 import everyValue from './every-value';
+import filterObject from './filter-object';
 
 export default {
   add,
@@ -94,4 +95,5 @@ export default {
   defaults,
   escapeRegExp,
   everyValue,
+  filterObject,
 };
