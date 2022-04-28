@@ -1,8 +1,6 @@
-interface Object {
-  [key: string]: string
-}
+import { ObjectType } from './types';
 
-const htmlUnescapes: Object = {
+const htmlUnescapes: ObjectType = {
   '&amp;': '&',
   '&lt;': '<',
   '&gt;': '>',

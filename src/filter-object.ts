@@ -1,6 +1,4 @@
-interface ObjectType {
-  [key: string]: any
-}
+import { ObjectType } from './types';
 
 /**
  *

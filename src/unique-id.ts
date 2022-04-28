@@ -1,8 +1,6 @@
-interface Object {
-  [key: string]: any
-}
+import { ObjectType } from './types';
 
-const idCounter: Object = {}
+const idCounter: ObjectType = {}
 const lodashPrefix: string = '$lodash$';
 
 /**

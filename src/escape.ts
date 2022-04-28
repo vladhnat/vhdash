@@ -1,8 +1,6 @@
-interface Object {
-  [key: string]: string
-}
+import { ObjectType } from './types';
 
-const htmlEscapes: Object = {
+const htmlEscapes: ObjectType = {
   '&': '&amp;',
   '<': '&lt;',
   '>': '&gt;',

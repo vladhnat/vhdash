@@ -1,6 +1,4 @@
-interface Object {
-  [key: string]: any
-}
+import { ObjectType } from './types';
 
 /**
  *
@@ -8,9 +6,9 @@ interface Object {
  * @param {Function} iteratee The function invoked per iteration
  * @returns {Object} Returns the new mapped object
  */
-const mapKey = (object: Object, iteratee: Function): Object => {
+const mapKey = (object: ObjectType, iteratee: Function): ObjectType => {
   object = Object(object);
-  const result: Object = {};
+  const result: ObjectType = {};
 
   for (const key in object) {
     const value: any = object[key];

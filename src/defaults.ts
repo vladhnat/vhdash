@@ -1,10 +1,7 @@
+import { ObjectType } from './types';
 import eq from './eq';
 import isNil from './is-nil';
 import isUndefined from './is-undefined';
-
-interface ObjectType {
-  [key: string]: any
-}
 
 const objectProto: ObjectType = Object.prototype;
 const hasOwnProperty = objectProto.hasOwnProperty

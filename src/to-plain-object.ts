@@ -1,14 +1,12 @@
-interface Object {
-  [key: string]: any
-}
+import { ObjectType } from './types';
 
 /**
  *
  * @param {*} value The value to convert
  * @returns {Object} Returns converted object
  */
-const toPlainObject = (value: any): Object => {
-  const result: Object = {};
+const toPlainObject = (value: any): ObjectType => {
+  const result: ObjectType = {};
   value = Object(value);
 
   for (const key in value) {

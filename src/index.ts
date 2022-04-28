@@ -46,6 +46,7 @@ import defaults from './defaults';
 import escapeRegExp from './escape-reg-exp';
 import everyValue from './every-value';
 import filterObject from './filter-object';
+import findKey from './find-key';
 
 export default {
   add,
@@ -96,4 +97,5 @@ export default {
   escapeRegExp,
   everyValue,
   filterObject,
+  findKey,
 };
