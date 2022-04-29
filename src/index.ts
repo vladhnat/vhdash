@@ -47,6 +47,8 @@ import escapeRegExp from './escape-reg-exp';
 import everyValue from './every-value';
 import filterObject from './filter-object';
 import findKey from './find-key';
+import first from './first';
+import flip from './flip';
 
 export default {
   add,
@@ -98,4 +100,6 @@ export default {
   everyValue,
   filterObject,
   findKey,
+  first,
+  flip,
 };
