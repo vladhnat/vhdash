@@ -49,6 +49,7 @@ import filterObject from './filter-object';
 import findKey from './find-key';
 import first from './first';
 import flip from './flip';
+import flow from './flow';
 
 export default {
   add,
@@ -102,4 +103,5 @@ export default {
   findKey,
   first,
   flip,
+  flow,
 };
