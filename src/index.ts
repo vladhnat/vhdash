@@ -50,6 +50,7 @@ import findKey from './find-key';
 import first from './first';
 import flip from './flip';
 import flow from './flow';
+import flowRight from './flow-right';
 
 export default {
   add,
@@ -104,4 +105,5 @@ export default {
   first,
   flip,
   flow,
+  flowRight,
 };
