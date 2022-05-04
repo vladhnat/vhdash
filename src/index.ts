@@ -51,6 +51,7 @@ import first from './first';
 import flip from './flip';
 import flow from './flow';
 import flowRight from './flow-right';
+import forOwn from './for-own';
 
 export default {
   add,
@@ -106,4 +107,5 @@ export default {
   flip,
   flow,
   flowRight,
+  forOwn,
 };
