@@ -1,3 +1,3 @@
 # vhdash
 
-JavaScript utility library.
+TypeScript utility library.
